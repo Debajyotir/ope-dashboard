@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.popup-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.popup-head-heading{
+    font-family: "Figtree";
+}
+.popup-head-close{
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+}
+
+
+.popup-divider{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #EBEBEB;
+}
+
+
+.pop-middle{
+    display: flex;
+    flex-direction: column;
+}
+.popup-middle-choose{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.popup-middle-choose1{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.popup-middle-name{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree";
+}
+.popup-middle-active{
+    height: 4px;
+    width: 213.42px;
+    border-radius: 5px;
+    background-color: #3F84F8;
+}
+.popup-middle-non-active{
+    height: 4px;
+    width: 213.42px;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+
+.popup-middle-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    label{
+        font-family: "Figtree";
+        margin-bottom: 0.3rem;
+    }
+    div{
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid #F2F2F2;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    input{
+        font-family: "Figtree";
+        flex: 2;
+        // padding: 1rem;
+        // border-radius: 5px;
+        // border: 1px solid #F2F2F2;
+        // margin-bottom: 1rem;
+        outline: none;
+        border: none;
+    }
+    span{
+        font-size: small;
+        font-weight: lighter;
+    }
+}
+
+.popup-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.popup-end-blue{
+    padding: 0.5rem;
+    background-color: #3E84F8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-end-white{
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+
+
